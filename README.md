@@ -1,3 +1,12 @@
+# PLAYRIX NOTES
+
+How to update the image
+
+1. Login (once): `aws ecr get-login-password --region us-east-1 | docker login --username AWS --password-stdin 449041058118.dkr.ecr.us-east-1.amazonaws.com`
+
+2. `make`
+
+
 [![lint-dockerfile](https://github.com/zenika-open-source/terraform-aws-cli/actions/workflows/lint-dockerfile.yml/badge.svg)](https://github.com/zenika-open-source/terraform-aws-cli/actions/workflows/lint-dockerfile.yml)
 [![build-test](https://github.com/zenika-open-source/terraform-aws-cli/actions/workflows/build-test.yml/badge.svg)](https://github.com/zenika-open-source/terraform-aws-cli/actions/workflows/build-test.yml)
 [![push-latest](https://github.com/zenika-open-source/terraform-aws-cli/actions/workflows/push-latest.yml/badge.svg)](https://github.com/zenika-open-source/terraform-aws-cli/actions/workflows/push-latest.yml)
